@@ -20,6 +20,7 @@
 | Instance 3   | Model 3    | Nadam          | L1(0.05)                   | 10     | No            | 7 (3 Conv2D, 3 MaxPooling, 1 Dense) | 0.05    | 0.001        | 0.843    | 0.4817   | 0.4817  | 0.4817    |
 | Instance 4   | Model 4    | SGD            | L2(0.005)                  | 10     | Yes           | 7 (3 Conv2D, 3 MaxPooling, 1 Dense) | 0.5     | 0.01         | 0.939    | 0.5015   | 0.5015  | 0.5015    |
 | Instance 5   | Model 5    | Adam           | L2(0.005)                  | 15     | Yes           | 7 (3 Conv2D, 3 MaxPooling, 1 Dense) | 0.5     | 0.001        | 0.887    | 0.4878   | 0.4878  | 0.4878    |
+
 ## Discussion
 #### When I started creating my model at first, it was overfitting and its Accuracy was at 0.97. The f1 score was 0.2 which meant my model was overfitting. After doing more than different training I came to discover that the data was the one having an issue. The testing set was having a 1 class instead  of the 38 classes that the other train and validate had, I had to make a new dataset to ensure they had the same classes. The new dataset worked best where the best model was Model4( model_4 = define_model('SGD',l2(0.005), True, 0.5,0.01). 
 #### The Best model I used was the SGD optimizer which is the best model to optimise large datasets in ML, other than the Adam optimizer it adjusts the running rate for parameters separately while SGD combines all the parameters.
@@ -29,10 +30,10 @@
 #### Inance three (Nadma), Nadam optimizer where it is a combination of both adam and Nesterov momentum achieved 0.843 accuracy. I used L1 regularization at 0.05 for feature selection with a lower dropout rate of 0.05 where it lead to a lower metrics (F1, recall, precision at 0.4817).
 #### instance Four (SGD)Using SGD an where it used to large dataset where it lead best accuracy of 0.939. I discovered that using a lighter L2 regularization (0.005) combined with dropout (0.5) worked perfectly. What really made this model good was how I balanced the learning rate at 0.01 - not too aggressive, not too conservative. 
 #### Instnce Five (Adam, Dropout), using of Adam more paratermers I tought it would have a high accuracy than SGD since adam is considered to the best optimizer. Dispite me using more epochs to 15 and got an accuracy of 0.887. I kept the same L2 regularization (0.005) that worked well in Instance Four, but I found that even with a lower learning rate (0.001) and early stopping it went lower. While the metrics were consistent (0.4878 across F1, recall, and precision),
-### Comparison of the Neural Network and an ML algorithm
+## Comparison of the Neural Network and an ML algorithm
 #### The Neral network is the best as it has a test accuracy of 0.939 while the SVM has 0.754. The parameter for model 4 was SGD and the parameters were combined and  CNNs work better for images because they learn patterns automatically, while SVMs need manual feature selection. However, SVMs are simpler to use and work well with small datasets. Model 4 performed best by using dropout and L2 regularization to prevent overfitting.
-### Video Presentation
-### Way to run my model and the saved one 
+## Video Presentation
+## Way to run my model and the saved one 
 #### ├── notebooks/
 #### │   ├── main_notebook.ipynb
 #### │   └── utils/
