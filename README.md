@@ -2,10 +2,7 @@
 ## Problem Staetment 
 #### This project leverages technology and education to create awareness about plant diseases and empower small-scale farmers in rural Kenya with effective detection and management solutions. A machine learning model using Convolutional Neural Networks (CNNs) will be implemented to detect plant diseases from uploaded images. 
 Farmers will receive real-time diagnoses, treatment recommendations, and access to educational modules on AI-driven pest and disease management.
-## Table Concet 
 ## Table of Model Comparisons
-## Table of Model Comparisons
-
 | Train Instance | Optimizer used (Adam, RMSProp) | Regularizer Used (L1 and L2) | Epochs | Early Stopping (Yes or No) | Number of Layers | Learning Rate | Accuracy | F1 Score | Recall | Precision |
 |---------------|--------------------------------|------------------------------|--------|----------------------------|------------------|--------------|----------|----------|--------|-----------|
 | Instance 1   | Adam                           | None                         | None   | None                       | None             | None         | 0.681    | 0.576    | 0.557  | 0.597     |
