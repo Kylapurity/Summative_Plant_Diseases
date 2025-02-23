@@ -1,6 +1,11 @@
 ## Summative_Plant_Diseases
 ## Problem Statement 
 #### This project leverages technology and education to create awareness about plant diseases and empower small-scale farmers in rural Kenya with effective detection and management solutions. A machine learning model using Convolutional Neural Networks (CNNs) will be implemented to detect plant diseases from uploaded images. Farmers will receive real-time diagnoses, treatment recommendations, and access to educational modules on AI-driven pest and disease management.
+## Saved Models
+### The files were too large to be pushed to the github and I saved them in a Google drive  here is the link:
+https://drive.google.com/drive/folders/1PBcSEyPHlyn3PEEmJr61yqWufLc7KB6k?usp=drive_link
+![image](https://github.com/user-attachments/assets/0ac7bb22-cd1b-49b1-ba48-1747ff59d5fe)
+
 ## Dataset  
 #### The dataset I used was a **plant diseases dataset**. It is used to predict and categorize the images based on the disease and class.  
 #### https://www.kaggle.com/datasets/puritykihiu/plant-dataset
