@@ -33,6 +33,7 @@
 ## Comparison of the Neural Network and an ML algorithm
 #### The Neral network is the best as it has a test accuracy of 0.939 while the SVM has 0.754. The parameter for model 4 was SGD and the parameters were combined and  CNNs work better for images because they learn patterns automatically, while SVMs need manual feature selection. However, SVMs are simpler to use and work well with small datasets. Model 4 performed best by using dropout and L2 regularization to prevent overfitting.
 ## Video Presentation
+#### https://youtu.be/s3vui_sD0QY
 ## Way to run my model and the saved one 
 #### ├── notebooks/
 #### │   ├── main_notebook.ipynb
