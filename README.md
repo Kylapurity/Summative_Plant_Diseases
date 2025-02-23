@@ -2,8 +2,8 @@
 ## Problem Staetment 
 #### This project leverages technology and education to create awareness about plant diseases and empower small-scale farmers in rural Kenya with effective detection and management solutions. A machine learning model using Convolutional Neural Networks (CNNs) will be implemented to detect plant diseases from uploaded images. Farmers will receive real-time diagnoses, treatment recommendations, and access to educational modules on AI-driven pest and disease management.
 ## Dataset  
-#### The dataset I used was a plant diseases dataset. It is used to predict and categorize the images based on the disease and class.  
-#### Dataset link: [li/kaggle/input/plant-dataset](li/kaggle/input/plant-dataset)
+#### The dataset I used was a **plant diseases dataset**. It is used to predict and categorize the images based on the disease and class.  
+#### [Click here to access the dataset](/kaggle/input/plant-dataset)
 ## Table of Model Comparisons
 | Train Instance | Optimizer used (Adam, RMSProp) | Regularizer Used (L1 and L2) | Epochs | Early Stopping (Yes or No) | Number of Layers | Learning Rate | Accuracy | F1 Score | Recall | Precision |
 |---------------|--------------------------------|------------------------------|--------|----------------------------|------------------|--------------|----------|----------|--------|-----------|
